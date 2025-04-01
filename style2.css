@@ -1,0 +1,23 @@
+.tea {color:brown;}
+.top{font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: azure;}
+div{border: solid 3px greenyellow;
+    background-color: rosybrown;
+    font-weight:bold;
+margin:10px;
+border-radius: 10px;}
+
+body{
+    background-color: #0C1527;
+  }
+  
+  input[type="text"], input[type="email"] {
+    border: 1px solid #FF9E03;
+    background-color: #17233B;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  label {
+    font-weight: bold;
+    color: #FF9E03;
+  }

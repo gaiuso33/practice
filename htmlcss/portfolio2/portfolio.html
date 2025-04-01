@@ -1,0 +1,58 @@
+
+
+    <!--Your portfolio should have a welcome section with an id of welcome-section
+    The welcome section should have an h1 element that contains text
+    Your portfolio should have a projects section with an id of projects
+    The projects section should contain at least one element with a class of project-tile to hold a project
+    The projects section should contain at least one link to a project
+    Your portfolio should have a navbar with an id of navbar
+    The navbar should contain at least one link that you can click on to navigate to different sections of the page
+    Your portfolio should have a link with an id of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab
+    Your portfolio should have at least one media query
+    The height of the welcome section should be equal to the height of the viewport
+    The navbar should always be at the top of the viewport-->
+<!doctype html>
+<html>
+	<head>
+	<meta charset="UTF-8" />
+    <link rel="stylesheet" href="./portfolio.css" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<main>
+		<nav id="navbar">
+			<a href="#welcome-section">Welcome</a>
+			<a href="#projects">projects</a>
+			<a href="#connect">Connect</a>
+		</nav>
+		<div id="welcome-section">
+			<h1>Do you need help building a website</h1>
+			<p>i am just a text away</p>
+		</div>
+		
+		<hr>
+		<section id="projects">
+			<div class="project-tile">
+				<a href="https://www.freecodecamp.org/gaiuso" id="profile-link">check out my freeCodeCamp profile here</a><br>
+				<a href="https://github.com/gaiuso33" id="profile-link">check out my github profile here</a>
+			</div>
+		</section>
+		<div class="social-icons" id="connect">
+          <a href="https://www.facebook.com/freecodecamp/">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/freecodecamp/">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com/freecodecamp">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+         
+        </div>
+		</main>
+	</body>
+</html>

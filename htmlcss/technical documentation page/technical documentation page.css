@@ -1,0 +1,46 @@
+
+BODY{ 
+  display:flex;
+  flex-direction:row;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#main-doc{
+	width:70%;
+	background-color:yellow;
+}
+
+header{
+	font-size:20px;
+	font-weight:bold;
+	text-align:left;
+}
+
+.nav-link{
+	display: block;
+	color: #4d4e53;
+    padding: 10px 30px;
+    font-size:18px ;
+}	
+.main-section{
+	display:flex;
+	flex-direction:column;
+	
+}
+
+#navbar{
+	width:40%;
+}
+
+p{
+	font-size:16px;
+}
+
+@media(max-width:768px){
+  BODY{
+    flex-direction:column;
+  }
+}

@@ -1,0 +1,29 @@
+#element {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(202, 149, 68);
+  color: white;
+  transition: width 2s, background-color 1s, height 2s;
+  transition-delay: 2s;
+}
+
+#element:active {
+  width: 500px;
+  height: 50px;
+  background-color: red;
+}
+
+
+#tell {
+    width: 250px;
+    height: 30px;
+    background-color: rgb(211, 69, 69);
+    color: white;
+    transition: width 2s, background-color 1s;
+    transition-delay: 2s;
+  }
+  
+  #tell:hover {
+    width: 80px;
+    background-color: rgb(202, 149, 68);
+  }

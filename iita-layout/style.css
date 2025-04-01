@@ -1,0 +1,31 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.Research{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Resources{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Recent{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Metrics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+p{text-align: center;}

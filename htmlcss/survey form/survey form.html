@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <h1 id="title">
+      Survey form
+      </h1>
+     <link rel="stylesheet" href="styles.css">  
+  </head>
+  <body>
+    <p id="description">this is a survey form to collect information from programmers</p>
+    <div class="form">
+      <form id="survey-form">
+      <label id="name-label">NAME:
+        <br>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        </label>
+        <br>
+      <label id="email-label">EMAIL:<br>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        </label>
+        <br>
+      <label id="number-label">Age:<br>
+        <input id="number" placeholder="Enter your age" type="number" min="1" max="3" >
+        </label><br>
+      <label id="Role">
+        Which option best describes your current role?<br>
+      <select id="dropdown">
+        <option>frontend web dev</option>
+        <option>backend web dev</option>
+        <option>web designer</option>
+        <option>software engineer</option>
+        <option>mobile app dev</option>
+      </select>
+      </label><br>
+        <label id="recommend">
+          <legend>Would you recommend freeCodeCamp to a friend?<br>
+          <input type="radio" name="radio" value="Definitely" checked>  Definitely</input>
+          <br>
+          <input type="radio" name="radio" value="Maybe">Maybe</input>
+          <br>
+          <input type="radio" name="radio" value="Not sure">Not sure</input>
+          </legend>
+        </label>
+        <br>
+        <legend>What would you like to see improved? (Check all that apply)<br>
+        <input type="checkbox" value="Front-end Projects">Front-end Projects<br>
+        <input type="checkbox" value="Back-end Projects">Back-end Projects<br>
+        <input type="checkbox" value="Data Visualization">Data Visualization<br>
+        <input type="checkbox" value="Challenges">Challenges<br>
+        <input type="checkbox" value="Open Source Community">Open Source Community<br>
+        <input type="checkbox" value="Gitter help rooms">Gitter help rooms<br>
+        <input type="checkbox" value="Videos">Videos<br>
+        <input type="checkbox" value="City Meetups">City Meetups<br>
+        <input type="checkbox" value="Wiki">Wiki<br>
+        <input type="checkbox" value="Forum">Forum<br>
+        <input type="checkbox" value="Additional Courses">Additional Courses<br>
+        </legend>
+        <br>
+        <textarea placeholder="Enter your comments">
+          </textarea>
+        <br>
+        <input type="submit" id="submit">
+      </form>
+      </div>
+       
+  </body>
+  </html>
